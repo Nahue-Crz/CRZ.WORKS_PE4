@@ -1,0 +1,122 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*General*/
+.pagina {
+    background-color: #2b2d2c;/*Fondo principal semi nardo grey*/
+    color: #D2C2AB; /*Texto principal*/
+    font-family: "Barlow Condensed", sans-serif; 
+}
+
+/* guia colores:
+#2B2D2C: PRIMARIO FONDO
+#D2C2AB: SECUNDARIO TEXTO
+#C49A6C: ENLACES
+*/
+
+
+/*Enlaces*/
+.enlace-nav {
+    color: #C49A6C;
+}
+
+/*Textos*/
+.titulo-primario {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.titulo-secundario {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.texto {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*Navegacion*/
+/*list-style borra el formato lista*/
+.lista-nav {
+    list-style: none;
+    font-size: 32px; 
+    font-weight: bold; 
+}
+
+.navegacion a {
+    text-decoration: none;
+    color: #c49a6c;
+}
+
+img {
+    max-width: 100%;
+}
+
+header, footer {
+    color: #C49A6C;
+    background-color: #121312;
+    background-image: url("../img/pruebacadenas.png");
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navegacion, .lista-nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.hero{
+    background-color: #49443ea8;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #fdfdfd;
+    font-size: 26px;
+    font-weight: 540;
+}
+
+.hero a {
+    color: #fdfdfd;
+    background-color: #c49a6c;
+    border: 2px solid #49443ea8;
+}
+
+.tarjeta {
+    background-color: #634d36;
+    width: 30%;
+    padding: 20px;
+}
+
+.tarjeta h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.tarjeta p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+main {
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    
+}
