@@ -57,6 +57,10 @@ img {
     max-width: 100%;
 }
 
+section {
+    margin-bottom: 1.5rem;
+}
+
 header, footer {
     color: #C49A6C;
     background-color: #121312;
@@ -77,7 +81,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1.5rem;
     flex-wrap: wrap;
 }
 
@@ -110,14 +114,20 @@ footer {
     padding: 20px;
 }
 
+.tarjeta figure {
+    margin-bottom: 0.75rem;
+}
+
 .tarjeta h2 {
     font-size: 32px;
     font-weight: 600;
+    margin-bottom: 0.75rem;
 }
 
 .tarjeta p {
     font-size: 18px;
     font-weight: 400;
+    margin-top: 0.75rem;
 }
 
 main {
